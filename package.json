@@ -1,0 +1,32 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "These api's can be use for authenticate any user using node and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jwt-auth test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harish65/jwt-auth.git"
+  },
+  "keywords": [
+    "jwt-node-auth",
+    "authentication",
+    "node",
+    "mysql-node-api"
+  ],
+  "author": "Harish Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harish65/jwt-auth/issues"
+  },
+  "homepage": "https://github.com/harish65/jwt-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0"
+  }
+}
