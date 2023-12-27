@@ -4,7 +4,8 @@
   "description": "These api's can be use for authenticate any user using node and express",
   "main": "index.js",
   "scripts": {
-    "test": "jwt-auth test"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -23,10 +24,14 @@
   },
   "homepage": "https://github.com/harish65/jwt-auth#readme",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
+    "connect-multiparty": "^2.2.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.1",
-    "mongodb": "^5.7.0"
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.5.1"
   }
 }

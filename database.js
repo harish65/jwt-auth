@@ -2,7 +2,7 @@ require ("dotenv").config();
 const { MongoClient } = require('mongodb');
 
 // Replace the connection string with your MongoDB database URL
-const url = 'mongodb://localhost:27017/mydatabase';
+const url = 'mongodb://localhost:27017/jwt-auth-db';
 
 let db = null;
 
